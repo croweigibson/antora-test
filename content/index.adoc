@@ -1,0 +1,5 @@
+= My First Documentation
+John Doe
+:toc:
+== Introduction
+This is the introduction to my project.
