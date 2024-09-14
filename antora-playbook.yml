@@ -1,0 +1,13 @@
+site:
+  title: Antora Docs
+  start_page: component-b::index.adoc
+
+content:
+  sources:
+    - url: file://C:/Users/HP/DocsProject/content
+      start_path: .
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/archive/2.3.x/antora-ui-default-2.3.x.zip
+    snapshot: true
