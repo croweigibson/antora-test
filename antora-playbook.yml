@@ -4,10 +4,10 @@ site:
 
 content:
   sources:
-    - url: file://C:/Users/HP/DocsProject/content
-      start_path: .
+    - url: https://github.com/croweigibson/antora-test
+      branches: master
 
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/archive/2.3.x/antora-ui-default-2.3.x.zip
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
