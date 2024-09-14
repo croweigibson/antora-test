@@ -4,8 +4,8 @@ site:
 
 content:
   sources:
-    - url: https://github.com/croweigibson/antora-test
-      start_path: content  # Folder where index.adoc is located
+    - url: https://github.com/croweigibson/antora-test/tree/master/content
+      start_path: .  # Folder where index.adoc is located
 
 ui:
   bundle:
