@@ -1,0 +1,13 @@
+site:
+  title: Antora Docs
+  start_page: component-b::index.adoc  # Adjust as needed
+
+content:
+  sources:
+    - url: https://github.com/croweigibson/antora-test
+      start_path: content  # Folder where index.adoc is located
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
